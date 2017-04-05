@@ -29,7 +29,7 @@ def list_():                              # Get Combination letters for every po
     return c
 
 def getdic():                                           # Open and read dictionary file
-    with open('C:\WordsRTF.RTF', 'r') as f:         # In this case the dictionary is stired in C:\WordsRTF.RTF
+    with open('C:\WordsRTF.RTF', 'r') as f:         # In this case the dictionary is stored in C:\WordsRTF.RTF
         content = f.read().splitlines()
         new = []
         for i in content:
